@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4 py-8">
       <Head>
-        <title>Tic-Tac-Toe</title>
+        <title>CallMiner x Tic-Tac-Toe</title>
       </Head>
 
       <div className="w-max mx-auto">
@@ -39,6 +39,8 @@ export default function Home() {
           </button>
         </form>
         <Game size={size} />
+        <br/>
+        <h1 className="text-1xl font-bold mb-8 text-center">Made with ❤️ by D'onte' Ballard</h1>
       </div>
     </div>
   );
